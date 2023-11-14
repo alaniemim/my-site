@@ -1,0 +1,97 @@
+ @charset "UTF-8";
+
+@font-face {
+    font-family: katana;
+    src: url(fontes/KATANA.ttf);
+    font-weight: lighter;
+}
+*{
+    text-indent: 10px;
+}
+body{
+    height: 100vh;
+    font-family: monospace, sans-serif;
+    background-image: url(https://images6.alphacoders.com/131/1313226.png);
+    background-position: center center;
+
+}
+header{
+    margin: 19px;
+}
+h1#tituloprincipal{
+    font-family: katana;
+    color: #ffce6f;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    margin: 0px;
+}
+#nav{
+    text-align: center;
+}
+ main{
+    max-width: 850px;
+    background-color: #36173d;
+    margin: auto;
+    margin-top: 19px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+
+    border-radius: 11px;
+    box-shadow: 9px 9px 9px black;
+ }
+
+.subtitulos{
+    font-family: katana, sans-serif;
+    color: #ffce6f;
+    margin-top: 7px;
+    text-align: center;
+   
+}
+.hora{
+    text-align: right;
+    font-weight: bolder;
+    color: purple;
+    margin: 0px;
+}
+p{
+    color: #f0d8a8a6;
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: plum;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#dvideo{
+    text-align: center;
+    text-indent: 0px;
+    margin: auto;
+    padding: 0px;
+    border-style: solid;
+    width: auto;
+}
+#video{
+  width: 500px;
+  max-width: 850px;
+  min-width: 320px;
+  height: 250px;
+}
+footer{
+    margin: auto;
+    margin-top: 400px;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
