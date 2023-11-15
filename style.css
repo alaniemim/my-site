@@ -21,6 +21,10 @@ body{
 header{
     position: absolute;
     top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: x-large;
 }
 h1#tituloprincipal{
     font-family: katana;
@@ -37,7 +41,7 @@ h1#tituloprincipal{
 }
  main{
     position: absolute;
-    top: 50%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
 
