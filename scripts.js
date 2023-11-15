@@ -5,6 +5,6 @@
     let minutes = d.getMinutes()
     h.innerHTML=`agora sao ${hora}:${minutes}H.`
 
-    nome = prompt('olá, por favor nos diga qual e seu nome')
+   // nome = prompt('olá, por favor nos diga qual e seu nome')
     titulo.innerHTML=`seja bem vindo(a) ${nome}.`
     
