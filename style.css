@@ -19,12 +19,8 @@ body{
 
 }
 header{
-    position: absolute;
-    top: 9%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    font-size: x-large;
+    margin-top: 20px;
+   font-size: x-large;
 }
 h1#tituloprincipal{
     font-family: katana;
@@ -35,6 +31,7 @@ h1#tituloprincipal{
 }
 #nav{
     text-align: center;
+    margin-top: 5px;
 }
 #container{
     position: relative;
