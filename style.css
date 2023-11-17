@@ -7,44 +7,44 @@
 }
 *{
     margin: 0px;
-    text-indent: 10px;
+    padding: 0px;
+}
+html{
+    min-height: 100vh;
 }
 body{
-    margin: 0px;
+    min-height: 100vh;
     font-family: monospace, sans-serif;
     background-image: url(https://images6.alphacoders.com/131/1313226.png);
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
 header{
-    margin-top: 20px;
    font-size: x-large;
 }
+
 h1#tituloprincipal{
+    padding-top: 35px;
     font-family: katana;
     color: #ffce6f;
     text-align: center;
     text-shadow: 1px 1px 2px black;
-    margin: 0px;
 }
 #nav{
     text-align: center;
-    margin-top: 5px;
+    padding-bottom: 35px;
 }
-#container{
-    position: relative;
-}
+
  main{
     position: absolute;
-    top: 37%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     height: auto;
     max-width: 850px;
-    padding: 10px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0);
     background-color: #36173d;
@@ -53,13 +53,24 @@ h1#tituloprincipal{
     box-shadow: 9px 9px 9px black;
  }
 
-.subtitulos{
+main > h2{
     font-family: katana, sans-serif;
     color: #ffce6f;
     margin-top: 7px;
     text-align: center;
-   
+    text-indent: 10px;
 }
+
+main > p{
+    line-height: 1.5em;
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+main > ul{
+    text-indent: 10px;
+}
+
 .hora{
     position: absolute;
     top: 2%;
@@ -76,6 +87,7 @@ h1#tituloprincipal{
   
     
 }
+
 p{
     color: #f0d8a8a6;
     text-align: center;
