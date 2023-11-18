@@ -15,9 +15,10 @@
 body, html{
     min-height: 100vh;
     font-family: monospace, sans-serif;
-    background-image: url(https://images6.alphacoders.com/131/1313226.png);
-    background-position: bottom center;
+    background-image: url(https://images.pexels.com/photos/2387819/pexels-photo-2387819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     font-family: var(--fonte2);
 
@@ -49,7 +50,7 @@ h1#tituloprincipal{
     max-width: 850px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0);
-    background-color: #36173d;
+    background-color: #747a8a;
 
     border-radius: 11px;
     box-shadow: 9px 9px 9px black;
