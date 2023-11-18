@@ -1,24 +1,25 @@
  @charset "UTF-8";
 
-@font-face {
-    font-family: katana;
-    src: url(fontes/KATANA.ttf);
-    font-weight: lighter;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Mono:wght@200&display=swap');
+
+ :root{
+    --fonte1: 'Orbitron', sans-serif;
+    --fonte2: 'Roboto Mono', monospace;
+ }
+
 *{
     margin: 0px;
     padding: 0px;
 }
-html{
-    min-height: 100vh;
-}
-body{
+
+body, html{
     min-height: 100vh;
     font-family: monospace, sans-serif;
     background-image: url(https://images6.alphacoders.com/131/1313226.png);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: var(--fonte2);
 
 }
 header{
@@ -27,8 +28,9 @@ header{
 
 h1#tituloprincipal{
     padding-top: 35px;
-    font-family: katana;
+    font-family: var(--fonte1);
     color: #ffce6f;
+    text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 2px black;
 }
@@ -39,7 +41,7 @@ h1#tituloprincipal{
 
  main{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -54,7 +56,8 @@ h1#tituloprincipal{
  }
 
 main > h2{
-    font-family: katana, sans-serif;
+    font-family: var(--fonte1);
+    font-variant: small-caps;
     color: #ffce6f;
     margin-top: 7px;
     text-align: center;
@@ -62,6 +65,7 @@ main > h2{
 }
 
 main > p{
+    font-family: var(--fonte2);
     line-height: 1.5em;
     font-weight: bold;
     text-indent: 10px;
@@ -89,7 +93,7 @@ main > ul{
 }
 
 p{
-    color: #f0d8a8a6;
+    color: white;
     text-align: center;
 }
 li{
