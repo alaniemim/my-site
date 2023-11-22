@@ -13,6 +13,7 @@
 body, html{
     min-height: 100vh;
     min-width: 100vh;
+    background-color: darkgray;
 }
 
 .d{
@@ -21,8 +22,8 @@ body, html{
     padding: 10px;
     width: 440px;
     height: 800px;
-    border-style: solid;
-    border-color: black;
+    border: solid rgb(255, 0, 0);
+    border-collapse: collapse;
     background-color: darkgray;
     color: white;
 
@@ -47,7 +48,6 @@ body, html{
 
 #pic{
     text-align: center;
-    background-color: black;
     margin-top: 15px;
     margin-bottom: 30px;
 }

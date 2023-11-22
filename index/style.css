@@ -31,7 +31,7 @@ header{
 #tituloprincipal{
     padding-top: 35px;
     font-family: var(--fonte1);
-    color: #ffce6f;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 2px black;
@@ -51,16 +51,15 @@ header{
     max-width: 850px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0);
-    background-color: #747a8a;
+    background-color: black;
 
     border-radius: 11px;
     box-shadow: 9px 9px 9px black;
  }
 
-main > h2{
+main > h1, h2{
     font-family: var(--fonte1);
-    font-variant: small-caps;
-    color: #ffce6f;
+    color: white;
     margin-top: 7px;
     text-align: center;
     text-indent: 10px;
@@ -104,12 +103,14 @@ li{
 
 a{
     text-decoration: none;
-    color: plum;
+    text-shadow: 1px 1px 20px white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+
 }
 a:hover{
     text-decoration: underline;
-    color: red;
+    color: rgb(208, 179, 255);
 }
 
 footer{
