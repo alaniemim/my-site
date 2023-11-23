@@ -2,11 +2,10 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1+Code&display=swap');
 
-
- :root{
+:root{
     --fonte1: 'Bebas Neue', sans-serif;
     --fonte2: 'M Plus 1 code', monospace;
- }
+}
 
 *{
     margin: 0px;
@@ -16,7 +15,7 @@
 body, html{
     min-height: 100vh;
     font-family: monospace, sans-serif;
-    background-image: url(https://images.pexels.com/photos/2387819/pexels-photo-2387819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-color: #36173d;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,21 +23,37 @@ body, html{
     font-family: var(--fonte2);
 
 }
-header{
-   font-size: x-large;
+
+.hora{ /* hora em JS*/
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    display: inline-block;
+    height: 25px;
+    padding: 5px;    
+    border-radius: 7px;
+    border-style: solid;
+    text-align: center;
+    font-weight: bolder;
+    color: purple;
+    background-color:#36173d;
 }
 
-#tituloprincipal{
+header{
+   font-family: var(--fonte1);
+   color: white;
+}
+
+#welcome{
     padding-top: 35px;
-    font-family: var(--fonte1);
-    color: white;
-    text-transform: uppercase;
+    font-size: 3em;
     text-align: center;
     text-shadow: 1px 1px 2px black;
 }
-#nav{
-    text-align: center;
+nav{
     padding-bottom: 35px;
+    text-align: center;
+    font-size: 2em;
 }
 
  main{
@@ -74,23 +89,6 @@ main > p{
 
 main > ul{
     text-indent: 10px;
-}
-
-.hora{
-    position: absolute;
-    top: 2%;
-    left: 90%;
-    display: inline-block;
-    height: 25px;
-    padding: 5px;    
-    border-radius: 7px;
-    border-style: solid;
-    text-align: center;
-    font-weight: bolder;
-    color: purple;
-    background-color:#36173d;
-  
-    
 }
 
 p{
