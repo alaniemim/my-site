@@ -68,3 +68,23 @@ section > h2{
     font-size: larger;
 
 }
+
+table{
+    border-collapse: collapse;
+    border: 1px solid white;
+    width: 440px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: red;
+}
+.tempo{
+    text-align: right;
+}
+
+
+th, td{
+    border-collapse: collapse;
+    padding: 7px;
+    border: 1px solid white;
+}
