@@ -55,17 +55,28 @@ body, html{
     text-align: center;
 }
 
-section > h1{
+section > h1, h2{
     text-align: center;
     font-family: var(--font1);
     color: white;
-    text-shadow: 0px 0px 20px white;
+    font-size: x-large;
 }
-section > h2{
-    text-align: left;
-    font-family: var(--font2);
-    font-size: larger;
 
+section > p{
+    font-family: var(--font2);
+}
+
+main > h1, h2{
+    font-family: var(--font1);
+    font-size: larger;
+}
+
+main > p {
+    font-family: var(--font2);
+}
+
+.titulo{
+    font-size: xx-large;
 }
 
 #dtable{
@@ -77,6 +88,10 @@ table{
     width: 420px;
     margin: auto;
 
+}
+
+thead{
+    background-color: darkgray;
 }
 
 tbody > tr:nth-child(2n){
