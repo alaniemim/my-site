@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+   --font1: 'Lato', sans-serif;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+
+header{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    width: 800px;
+    height: auto;
+    border: 1px solid black;
+    
+    text-align: center;
+}
+
+main > p{
+    text-align: left;
+}
+
+footer{
+    padding: 3px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
