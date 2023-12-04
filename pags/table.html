@@ -10,17 +10,34 @@
     :root{
         --font1:'Lato', sans-serif;
     }
+
     body{
         font-family: var(--font1);
     }
 
     table{
         border-collapse: collapse;
+        width: 400px;
     }
+
     tr, td, th{
-        border: 1px solid black;
+        border: 2px solid black;
+        padding: 5px;
+        font-weight: bold;
+        text-align: center;
     }
-    
+
+    th{
+        color: rgba(255, 0, 0, 0.585);
+        background-color: darkgray;
+        text-transform: uppercase;
+
+    }
+
+    tr:nth-child(odd){
+        background-color: lightgray;
+    }
+
     caption{
         text-align: center;
     }
@@ -28,11 +45,12 @@
     <title>tabela</title>
 </head>
 <body>
-    <caption>competencias</caption>
-    <table>
+    <table> 
+        <caption>competencias</caption>
+
         <thead>
-            <th>fron-end</th>
-            <th>back-end</th>
+            <th scope="col">fron-end</th>
+            <th scope="col">back-end</th>
         </thead>
         <tbody>
             <tr>
