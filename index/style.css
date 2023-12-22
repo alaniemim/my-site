@@ -9,7 +9,6 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--font1);
-
 }
 
 body, html{
@@ -20,21 +19,20 @@ body, html{
 body{
     background: url(../media/imgs/pexels-photo-998641.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
+
 #cabeca{
     color: white;
-    font-family: var(--font1);
     text-align: center;    
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 #cabeca > h1{
     font-size: 2.8em;
+    font-variant: small-caps;
     text-shadow: 1px 1px 1px purple;
-}
-#principal{
-    min-height: 100vh;
 }
 
 #container{
@@ -58,11 +56,12 @@ body{
     line-height: 1.5em;
     font-weight: normal;
     text-indent: 15px;
+    text-shadow: 1px 0px 1px white;
 }
 
 #social{
     position: absolute;
-    top: 50%;
+    top: 483.5px;
     left: 97%;
     transform: translate(-50%, -90%);
 }
@@ -83,14 +82,32 @@ body{
     transition: 0.3;
 }
 
+.lg{
+    color: red;
+    font: bold;
+    text-shadow: 1px 0px 1px red;
+}
+
 footer{
+    display: inline-block;
     position: absolute;
+    top: 935px;
     padding: 7px;
     width: 227px;
     border-radius: 4px 4px 0px 0px;
     font-variant: small-caps;
     font-size: large;
     text-align: left;
+    font-weight: bolder;
     color: white;
+}
+
+#secret{
+    color: red;
+    font-weight: bolder;
+}
+
+#secret:hover{
+    
 }
 
