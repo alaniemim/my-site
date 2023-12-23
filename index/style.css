@@ -30,7 +30,7 @@ body{
 }
 
 #cabeca > h1{
-    font-size: 2.8em;
+    font-size: 4em;
     font-variant: small-caps;
     text-shadow: 1px 1px 1px purple;
 }
@@ -62,7 +62,7 @@ body{
 #social{
     position: absolute;
     top: 483.5px;
-    left: 97%;
+    left: 1885px;    
     transform: translate(-50%, -90%);
 }
 
@@ -80,6 +80,10 @@ body{
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 5px 4px 10px black;
     transition: 0.3;
+}
+
+p{
+    margin-bottom: 7px;
 }
 
 .lg{
@@ -102,12 +106,17 @@ footer{
     color: white;
 }
 
-#secret{
+footer > p{
+    display: none;
+    width: 200px;
+
+}
+
+footer:hover > p{
+    display: block;
+}
+
+#zero{
     color: red;
     font-weight: bolder;
 }
-
-#secret:hover{
-    
-}
-
