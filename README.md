@@ -1,3 +1,3 @@
 # my-site
-um site pequeno para testar meus aprendizados de html, css, js e python.
-clique https://alaniemim.github.io/my-site/
+Pequeno site para testar meus conhecimentos de HTML e CSS.
+
