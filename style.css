@@ -25,7 +25,7 @@ body{
 #cabeca{
     color: white;
     text-align: center;    
-    padding: 50px;
+    padding: 40px;
 }
 
 #cabeca > h1{
@@ -36,7 +36,6 @@ body{
 
 main{
     margin: auto;
-    margin-top: 30px;
     max-width: 700px;
     color: white;
 }
@@ -66,10 +65,9 @@ main{
 }
 
 #social > a > img:hover{
-    transform: translate(-3px, -3px);
-    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-5px, -5px);
     box-shadow: 5px 4px 10px black;
-    transition: 0.3;
+    transition: 0.4s;
 }
 
 #formulario{
@@ -77,11 +75,18 @@ main{
     color: white;
 }
 
-.cadastro:hover{
-    color: red;
-
+.cadastro{
+    color: purple;
+    font-weight: bolder;
 }
 
+.enviar:hover{
+    background-color: aliceblue;
+}
+
+h1{
+    margin-bottom: 7px;
+}
 p{
     margin-bottom: 7px;
 }

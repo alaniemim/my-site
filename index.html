@@ -11,6 +11,10 @@
 
     <header id="cabeca">
         <h1 id="welcome">Bem vindo(A)</h1>
+        <p>
+            <label for="isecretkey">chave secreta:</label>
+            <input type="password" name="secretkey" id="isecretkey" maxlength="4" size="4">
+        </p>
     </header>
 
         <main>
@@ -33,13 +37,18 @@
             <h1>Deixe seu contato</h1>
             <form action="contato.js">
                 <p>
-                    <label for="izap">Whatzap: </label>
-                    <input type="number" name="zap" id="izap" class="cadastro">
+                    <label for="izap">Fone:</label>
                     <br>
+                    <input type="number" name="zap" id="izap" class="cadastro">
+                
+                </p>
+
+                <p>
                     <label for="iemail">Email: </label>
+                    <br>
                     <input type="text" name="email" id="iemail" class="cadastro">
                 </p>
-                <input type="button" value="Enviar :]">
+                <input type="button" value="Enviar :]" class="enviar">
             </form>
         </section>
 
@@ -47,7 +56,6 @@
         <p>chave secreta: 1109</p>
         desenvolvido por <span id="zero">&copy;zerotriste.</span>
      </footer>
-
 
 <script src="scripts.js"></script>
 
