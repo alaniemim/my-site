@@ -25,7 +25,7 @@ body{
 #cabeca{
     color: white;
     text-align: center;    
-    padding-top: 50px;
+    padding: 50px;
 }
 
 #cabeca > h1{
@@ -34,33 +34,26 @@ body{
     text-shadow: 1px 1px 1px purple;
 }
 
-#container{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+main{
+    margin: auto;
+    margin-top: 30px;
+    max-width: 700px;
     color: white;
 }
 
 #container > h1{
     text-align: center;
-    font-size: 1.7em;
-    font-variant: small-caps;
-    font-weight: bold;
+
 }
 
 #container > p{
-    width: 500px;
-    line-height: 1.5em;
-    font-weight: normal;
-    text-indent: 15px;
-    text-shadow: 1px 0px 1px white;
+    line-height: 25px;
 }
 
 #social{
-    position: relative;
-    top: 20%;
-    text-align: right;
+    position: absolute;
+    top: 26%;
+    left: 90%;
 }
 
 #social > a > img{
@@ -77,6 +70,16 @@ body{
     border: 2px solid rgb(255, 255, 255);
     box-shadow: 5px 4px 10px black;
     transition: 0.3;
+}
+
+#formulario{
+   text-align: center;
+    color: white;
+}
+
+.cadastro:hover{
+    color: red;
+
 }
 
 p{
