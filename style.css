@@ -40,11 +40,8 @@ main{
     color: white;
 }
 
-#container > h1{
+#container{
     text-align: center;
-}
-
-#container > p{
     line-height: 25px;
 }
 
